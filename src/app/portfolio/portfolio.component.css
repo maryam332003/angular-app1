@@ -1,0 +1,57 @@
+.star-icon {
+  position: relative;
+}
+.portfolio h2{
+  color: var(--main-color);
+  font-size: 2.5rem;
+  line-height: 48px;
+  margin:0px 0px 16px;
+  font-weight: 700;
+}
+
+.star-icon::before {
+  content: "";
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  background-color: var(--main-color);
+  right: 102px;
+  top: 10px;
+}
+
+.star-icon::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  background-color: var(--main-color);
+  left: 99px;
+  top: 10px;
+}
+.portfolio .col-md-4 {
+  position: relative;
+}
+.layer{
+  background-color: var(--btn-color);
+  transition-duration: 0.6s;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+  }
+
+  .content:hover .layer {
+    opacity: 1;
+  }
+/* .overlay-container{
+  background-color: #C2DBFE;
+  opacity: 25;
+} */
+.img-container{
+  width: 50%;
+}
+

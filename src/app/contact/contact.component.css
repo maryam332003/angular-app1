@@ -1,0 +1,31 @@
+.contact button{
+  background-color: #1abc9c
+}
+.contact h2{
+  color: var(--main-color);
+  font-size: 2.5rem;
+  line-height: 48px;
+  margin:0px 0px 16px;
+  font-weight: 700;
+  position: relative;
+}
+
+.star-icon::before {
+  content: "";
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  background-color: var(--main-color);
+  right: 609px;
+  top: 205px;
+}
+
+.star-icon::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  background-color: var(--main-color);
+  left: 610px;
+  top: 205px;
+}

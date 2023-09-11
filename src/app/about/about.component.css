@@ -1,0 +1,38 @@
+.about {
+  height: 75vh;
+  background-color: var(--btn-color);
+  color: var(--font-color);
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  line-height: 48px;
+  margin:0px 0px 16px;
+  font-weight: 700;
+}
+.about .container{
+  width: 75% !important;
+}
+.star-icon {
+  position: relative;
+}
+
+.star-icon::before {
+  content: "";
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  background-color: var(--font-color);
+  right: 51px;
+  top: 10px;
+}
+
+.star-icon::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  background-color: var(--font-color);
+  left: 49px;
+  top: 10px;
+}

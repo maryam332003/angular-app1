@@ -1,0 +1,33 @@
+.img{
+  width: 20%;
+}
+section{
+  background-color: var(--btn-color);
+  color: white;
+}
+.emptyPath h2{
+  font-size: 2.5rem;
+  line-height: 48px;
+  margin:0px 0px 16px;
+  font-weight: 700;
+}
+
+.star-icon::before {
+  content: "";
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  background-color: var(--font-color);
+  right: 601px;
+  bottom: 182px;
+}
+
+.star-icon::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  background-color: var(--font-color);
+  left: 597px;
+  top: 521px;
+}
